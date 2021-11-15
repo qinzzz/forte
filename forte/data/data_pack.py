@@ -582,7 +582,7 @@ class DataPack(BasePack[Entry, Link, Group]):
                     raise ValueError(
                         f"The end {end} of span is greater than the text "
                         f"length {len(self.text)}, which is invalid. The "
-                        f"problematic entry is of type {entry.__class__} "
+                        f"problematic entry is of typ           e {entry.__class__} "
                         f"at [{begin}:{end}], in pack {pack_ref}."
                     )
 
